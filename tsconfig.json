@@ -1,0 +1,24 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "paths": {
+      "models/*": ["./models/*"],
+      "config/*": ["./config/*"],
+      "controllers/*": ["./controllers/*"],
+      "seeders/*": ["./seeders/*"],
+      "utils/*": ["./utils/*"]
+    }
+  }
+}

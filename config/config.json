@@ -1,0 +1,11 @@
+{
+    "local": {
+        "username": "root",
+        "password": "mysqlroot",
+        "database": "library-db",
+        "host": "localhost",
+        "dialect": "mysql",
+        "serverUrl": "http://localhost",
+        "port": 3306
+    }
+}
